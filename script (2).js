@@ -1,0 +1,14 @@
+//variables
+
+let thumbnails = document.getElementsByClassName("thumbnail");
+let slider = document.getElementById("slider");
+let buttonRight = document.getElementById("slide-right");
+let buttonLeft = document.getElementById("slide-left");
+
+buttonLeft.addEventListener("click", () =>{
+	slider.scrollLeft -=370;
+});
+
+buttonRight.addEventListener("click", () =>{
+	slider.scrollLeft +=370;
+});
